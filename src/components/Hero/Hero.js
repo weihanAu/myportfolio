@@ -12,7 +12,7 @@ const Hero = (props) => (
        Barry's Portfolio
      </SectionTitle>
      <SectionText>
-       ideas and codes for all enthusiasts
+       Life is like an npm install – you never know what you are going to get.
      </SectionText>
      <Button onClick={()=>{window.location='/projects'}}> Projects</Button>
    </LeftSection>
