@@ -9,7 +9,7 @@ const Hero = (props) => (
    <LeftSection>
      <SectionTitle main>
        Welcome To <br/>
-       Barry's Portfolio
+       Hudson's Portfolio
      </SectionTitle>
      <SectionText>
        Life is like an npm install – you never know what you are going to get.
