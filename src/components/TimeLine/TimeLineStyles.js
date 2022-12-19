@@ -43,6 +43,14 @@ export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
   max-width: 196px;
+  transition: .3s ease;
+	position: relative;
+	left: 0;
+
+	&:hover {
+		color: #fff;
+		left: 6px;
+	}
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;

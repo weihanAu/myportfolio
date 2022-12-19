@@ -2,6 +2,8 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import AccordionList from '../Accordion/AccordionList';
+import {FrontTechnoligies} from '../../constants/constants'
 
 const Technologies = () =>  (
   <Section >
@@ -18,10 +20,7 @@ const Technologies = () =>  (
           <ListTitle>
            Front-end
           </ListTitle>
-          <ListParagraph>
-            Experience with <br/>
-            React.js
-          </ListParagraph>
+          <AccordionList technologies={FrontTechnoligies}/>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -30,10 +29,7 @@ const Technologies = () =>  (
           <ListTitle>
            Back-end
           </ListTitle>
-          <ListParagraph>
-            Experience with <br/>
-            Node.js and Database
-          </ListParagraph>
+          <AccordionList technologies={FrontTechnoligies}/>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -42,10 +38,7 @@ const Technologies = () =>  (
           <ListTitle>
            UI/UX
           </ListTitle>
-          <ListParagraph>
-            Experience with <br/>
-            Figma
-          </ListParagraph>
+          <AccordionList technologies={FrontTechnoligies}/>
         </ListContainer>
       </ListItem>
     </List>

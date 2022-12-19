@@ -27,6 +27,15 @@ export const Box = styled.div`
   border-radius: 12px;
   height: 244px;
   padding: 24px;
+  transition: .3s ease;
+	position: relative;
+	left: 0;
+
+	&:hover {
+		color: #fff;
+		left: 6px;
+	};
+
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
 

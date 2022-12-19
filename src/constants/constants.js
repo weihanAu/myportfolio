@@ -43,3 +43,19 @@ export const TimeLineData = [
   { year: 2020, text: 'worked as ERP adminstration and warehouse manager in Newcastle Glass Company ', },
   { year: 2021, text: 'Shared my projects with the world', },
 ];
+
+export const FrontTechnoligies = [
+  {
+    name:'docker',
+    description:'docker !!!! good!!! ss!!!!'
+  },
+  {
+    name:'react',
+    description:'docker !!!! good!!! ss!!!!'
+  },
+  {
+    name:'git',
+    description:'docker !!!! good!!! ss!!!!'
+  },
+  
+]
