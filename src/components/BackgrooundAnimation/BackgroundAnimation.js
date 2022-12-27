@@ -1,7 +1,11 @@
 import React from 'react';
+const bageCss ={
+  maxWidth:'1000px',
+  maxHeight:'50px'
+};
 
 const BackgroundAnimation = () => (
-  <div>
+  <div style={bageCss}>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
