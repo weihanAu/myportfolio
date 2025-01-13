@@ -11,13 +11,13 @@ const Projects = () => (
    <GridContainer>
      {projects.map(i=>(
        <BlogCard key={i.id}>
-         <Img src={i.image}/>
+         {/* <Img src={i.image}/> */}
          <TitleContent>
            <HeaderThree>{i.title}</HeaderThree>
            <Hr />
            <CardInfo>{i.description}</CardInfo>
            <div>
-             <TitleContent>stack</TitleContent>
+             {/* <TitleContent>stack</TitleContent> */}
              <TagList>
                {i.tags.map((i,index)=>(
                  <Tag key={index}>
@@ -26,10 +26,10 @@ const Projects = () => (
                ))}
              </TagList>
            </div>
-           <UtilityList>
+           {/* <UtilityList>
              <ExternalLinks href={i.visit}>Code</ExternalLinks>
              <ExternalLinks href={i.source}>Source</ExternalLinks>
-           </UtilityList>
+           </UtilityList> */}
          </TitleContent>
        </BlogCard>
      ))}

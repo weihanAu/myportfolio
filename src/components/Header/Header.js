@@ -16,13 +16,13 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      <Link  href="/projects">
+      <Link  href="#projects">
         <NavLink>Project</NavLink>
       </Link>
-      <Link  href="/tech">
+      <Link  href="#tech">
         <NavLink>Technologies</NavLink>
       </Link>
-      <Link  href="/about">
+      <Link  href="#about">
         <NavLink>About Me</NavLink>
       </Link> 
     </Div2>

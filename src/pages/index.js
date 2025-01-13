@@ -14,9 +14,10 @@ const Home = () => {
       <Section grid>
         <Hero />
       </Section>
+      <Timeline />
+      <Projects />
       <Acomplishments />
       <Technologies />
-      <Timeline />
     </Layout>
   );
 };

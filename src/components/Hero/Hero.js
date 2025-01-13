@@ -14,7 +14,7 @@ const Hero = (props) => (
      <SectionText>
        Life is like an npm install – you never know what you are going to get.
      </SectionText>
-     <Button onClick={()=>{window.location='/projects'}}> Projects</Button>
+     <Button onClick={()=>{window.location='#projects'}}> Projects</Button>
    </LeftSection>
  </Section>
 );

@@ -46,7 +46,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle main>about me</SectionTitle>
       <SectionText>
-        hi,this is my journey in recent years
+        Hi,my name is Hudson, I started to work as a web developer in Australia since 2020 and I servered many Tire-1 customers: Coles, Bunnings, Optus, Heart Foundation, News Group and Domain Group, etc.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

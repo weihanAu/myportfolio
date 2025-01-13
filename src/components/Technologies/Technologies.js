@@ -3,10 +3,10 @@ import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 import AccordionList from '../Accordion/AccordionList';
-import {FrontTechnoligies} from '../../constants/constants'
+import {FrontTechnoligies,BackTechnoligies,UIUX} from '../../constants/constants'
 
 const Technologies = () =>  (
-  <Section >
+  <Section id='tech'>
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
@@ -18,7 +18,7 @@ const Technologies = () =>  (
         <DiReact size="4rem"/>
         <ListContainer>
           <ListTitle>
-           Front-end
+          Web Tech
           </ListTitle>
           <AccordionList technologies={FrontTechnoligies}/>
         </ListContainer>
@@ -27,18 +27,18 @@ const Technologies = () =>  (
         <DiFirebase size="4rem"/>
         <ListContainer>
           <ListTitle>
-           Back-end
+           Database
           </ListTitle>
-          <AccordionList technologies={FrontTechnoligies}/>
+          <AccordionList technologies={BackTechnoligies}/>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiZend size="4rem"/>
         <ListContainer>
           <ListTitle>
-           UI/UX
+           Tools
           </ListTitle>
-          <AccordionList technologies={FrontTechnoligies}/>
+          <AccordionList technologies={UIUX}/>
         </ListContainer>
       </ListItem>
     </List>
